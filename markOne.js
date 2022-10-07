@@ -26,3 +26,4 @@ play = (question, answer) => {
 for (let i of arrayQuestions) {
   play(i.question, i.answer);
 }  
+console.log(`YOUR FINAL SCORE IS: ${score} `);
