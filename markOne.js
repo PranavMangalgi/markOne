@@ -1,5 +1,5 @@
-const prompt = require("prompt-sync")({ sigint: true });
-const playerName = prompt(`What is your name?`);
+var readlineSync=require('readline-sync');
+const playerName = readlineSync.question(`What is your name?`);
 
 console.log(`Welcome ${playerName}! Let's play 'how well do you know me'`);
 let score = 0;
