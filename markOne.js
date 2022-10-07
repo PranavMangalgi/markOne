@@ -17,7 +17,7 @@ play = (question, answer) => {
     console.log(`Wrong answer :(`);
   }
   console.log(`Current score: ${score}`);
-  console.log(`______________`);
+  console.log(`-------------`);
   if (score === 5) {
     console.log(`AWESOME! YOU GOT ALL THE 5 QUESTUONS RIGHT!`)
   }
@@ -26,4 +26,4 @@ play = (question, answer) => {
 for (let i of arrayQuestions) {
   play(i.question, i.answer);
 }  
-console.log(`YOUR FINAL SCORE IS: ${score} `);
+console.log(`YOUR FINAL SCORE IS: ${score}`);
