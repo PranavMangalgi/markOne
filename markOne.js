@@ -8,7 +8,7 @@ let arrayQuestions = [{ question: `Where do i live?`, answer: "bangalore" }, { q
 
 
 play = (question, answer) => {
-  let playerAnswer = prompt(question);
+    let playerAnswer = readlineSync.question(question);
   if (playerAnswer === answer) {
     console.log(`Correct answer!`);
     score += 1;
